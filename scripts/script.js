@@ -1,4 +1,4 @@
-const userID = "738748102311280681"; // Thay đổi thành ID Discord của bạn
+const userID = "1169111190824308768"; // Thay đổi thành ID Discord của bạn
 
 const elements = {
 	statusBox: document.querySelector(".status"),
@@ -55,23 +55,23 @@ function updateStatus(lanyardData) {
 	// Xác định đường dẫn hình ảnh và nhãn theo trạng thái
 	switch (discord_status) {
 		case "online":
-			imagePath = "./public/status/online.svg";
+			imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed.webp";
 			label = "Online";
 			break;
 		case "idle":
-			imagePath = "./public/status/idle.svg";
+			imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed_1.webp";
 			label = "Idle / AFK";
 			break;
 		case "dnd":
-			imagePath = "./public/status/dnd.svg";
+			imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed_3.webp";
 			label = "Do Not Disturb";
 			break;
 		case "offline":
-			imagePath = "./public/status/offline.svg";
+			imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed_2.webp";
 			label = "Offline";
 			break;
 		default:
-			imagePath = "./public/status/offline.svg";
+			imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed_2.webp";
 			label = "Unknown";
 			break;
 	}
@@ -85,7 +85,7 @@ function updateStatus(lanyardData) {
 	);
 
 	if (isStreaming) {
-		imagePath = "./public/status/streaming.svg";
+		imagePath = "https://juicepoopooumgood.github.io/Api-guy/image_upscaled_object_removed_5.webp";
 		label = "Streaming";
 	}
 
